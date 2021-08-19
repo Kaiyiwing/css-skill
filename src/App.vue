@@ -28,7 +28,6 @@
 </template>
 
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
 import Layout1 from "./components/Layout/使用float排版环绕文本.vue";
 import { reactive, onMounted } from "vue";
 
