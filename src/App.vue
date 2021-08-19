@@ -97,6 +97,14 @@ onMounted(() => {
     margin-top: 20px;
   }
 
+  a {
+    color: #fff;
+    padding: 0 4px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   .gradient {
     background-image: linear-gradient(92deg, #f66 0%, #f90 100%);
     background-clip: text;
