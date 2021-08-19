@@ -30,9 +30,13 @@
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
 import Layout1 from "./components/Layout/使用float排版环绕文本.vue";
-import { reactive } from "vue";
+import { reactive, onMounted } from "vue";
 
 const state = reactive({ count: 0 });
+onMounted(() => {
+  const items = document.getElementsByClassName("bruce") || [];
+  state.count = items.length;
+});
 </script>
 
 <style lang="scss">
