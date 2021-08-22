@@ -10,6 +10,11 @@
         <div class="left"></div>
         <div class="right"></div>
       </div>
+      <div class="three-column-layout" title="三列布局">
+        <div class="left"></div>
+        <div class="center"></div>
+        <div class="right"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -54,6 +59,24 @@
   .right {
     flex: 1;
     background-color: #66f;
+  }
+}
+
+.three-column-layout {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  .left {
+    width: 50px;
+    background-color: #f66;
+  }
+  .center {
+    width: 100px;
+    background-color: #66f;
+  }
+  .right {
+    flex: 1;
+    background-color: #3c9;
   }
 }
 </style>
