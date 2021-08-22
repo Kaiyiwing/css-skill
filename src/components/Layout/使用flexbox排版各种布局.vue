@@ -20,6 +20,12 @@
         <div class="center"></div>
         <div class="right"></div>
       </div>
+      <div class="average-layout" title="多列布局-均分布局">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -100,6 +106,27 @@
   .right {
     width: 100px;
     background-color: #66f;
+  }
+}
+
+.average-layout {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  div {
+    flex: 1;
+  }
+  .one {
+    background-color: #f66;
+  }
+  .two {
+    background-color: #66f;
+  }
+  .three {
+    background-color: #f90;
+  }
+  .four {
+    background-color: #09f;
   }
 }
 </style>
