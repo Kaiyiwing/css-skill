@@ -23,13 +23,14 @@
   </div>
   <div class="content layout">
     <Layout1 />
+    <Layout2 />
   </div>
-  <!-- <HelloWorld msg="Hello Vue 3 + Vite" /> -->
 </template>
 
 <script setup>
-import Layout1 from "./components/Layout/使用float排版环绕文本.vue";
 import { reactive, onMounted } from "vue";
+import Layout1 from "./components/Layout/使用flexbox排版各种布局.vue";
+import Layout2 from "./components/Layout/使用float排版环绕文本.vue";
 
 const state = reactive({ count: 0 });
 onMounted(() => {
@@ -39,6 +40,7 @@ onMounted(() => {
 </script>
 
 <style lang="scss">
+/* 设置滚动条样式 */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
