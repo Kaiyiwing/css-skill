@@ -26,6 +26,9 @@
         <div class="three"></div>
         <div class="four"></div>
       </div>
+      <div class="center-layout" title="居中布局">
+        <div></div>
+      </div>
     </div>
   </div>
 </template>
@@ -127,6 +130,21 @@
   }
   .four {
     background-color: #09f;
+  }
+}
+
+.center-layout {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  background-color: #f66;
+
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: #66f;
+    /* 也可以在父元素使用 center 做布局 */
+    margin: auto;
   }
 }
 </style>
