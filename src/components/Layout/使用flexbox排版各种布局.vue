@@ -32,7 +32,7 @@
     </div>
   </div>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 .layout-box {
   display: flex;
   flex-direction: column;
