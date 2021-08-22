@@ -26,6 +26,9 @@
     <Layout2 />
     <Layout3 />
   </div>
+  <div class="content behavior">
+    <Behavior1 />
+  </div>
 </template>
 
 <script setup>
@@ -33,6 +36,7 @@ import { reactive, onMounted } from "vue";
 import Layout1 from "./components/Layout/使用flexbox排版各种布局.vue";
 import Layout2 from "./components/Layout/使用float排版环绕文本.vue";
 import Layout3 from "./components/Layout/使用text-overflow控制溢出文本.vue";
+import Behavior1 from "./components/Behavior/使用attr()抓取节点属性.vue";
 
 const state = reactive({ count: 0 });
 onMounted(() => {
