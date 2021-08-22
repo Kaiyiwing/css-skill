@@ -15,6 +15,11 @@
         <div class="center"></div>
         <div class="right"></div>
       </div>
+      <div class="grail-layout" title="圣杯布局">
+        <div class="left"></div>
+        <div class="center"></div>
+        <div class="right"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -77,6 +82,24 @@
   .right {
     flex: 1;
     background-color: #3c9;
+  }
+}
+
+.grail-layout {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  .left {
+    width: 100px;
+    background-color: #f66;
+  }
+  .center {
+    flex: 1;
+    background-color: #3c9;
+  }
+  .right {
+    width: 100px;
+    background-color: #66f;
   }
 }
 </style>
