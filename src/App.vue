@@ -32,7 +32,7 @@
 import { reactive, onMounted } from "vue";
 import Layout1 from "./components/Layout/使用flexbox排版各种布局.vue";
 import Layout2 from "./components/Layout/使用float排版环绕文本.vue";
-import Layout3 from "./components/Layout/使用text-overflow控制移除文本.vue";
+import Layout3 from "./components/Layout/使用text-overflow控制溢出文本.vue";
 
 const state = reactive({ count: 0 });
 onMounted(() => {
