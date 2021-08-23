@@ -32,6 +32,9 @@
   <div class="content figure">
     <Figure1 />
   </div>
+  <div class="content component">
+    <Component1 />
+  </div>
 </template>
 
 <script setup>
@@ -41,6 +44,7 @@ import Layout2 from "./components/Layout/使用float排版环绕文本.vue";
 import Layout3 from "./components/Layout/使用text-overflow控制溢出文本.vue";
 import Behavior1 from "./components/Behavior/使用attr()抓取节点属性.vue";
 import Figure1 from "./components/Figure/使用clip-path描绘各种图像.vue";
+import Component1 from "./components/Component/条形加载条.vue";
 
 const state = reactive({ count: 0 });
 onMounted(() => {
