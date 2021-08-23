@@ -42,6 +42,7 @@
       opacity: 1;
     }
   }
+  /* 使用 :empty 伪类选择器选择空元素 */
   &.btn-2:empty::after {
     content: attr(href);
   }
