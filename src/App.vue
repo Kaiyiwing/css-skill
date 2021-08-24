@@ -35,6 +35,7 @@
   <div class="content component">
     <Component1 />
     <Component2 />
+    <Component3 />
   </div>
 </template>
 
@@ -47,6 +48,7 @@ import Behavior1 from "./components/Behavior/使用attr()抓取节点属性.vue"
 import Figure1 from "./components/Figure/使用clip-path描绘各种图像.vue";
 import Component1 from "./components/Component/条形加载条.vue";
 import Component2 from "./components/Component/心形加载条.vue";
+import Component3 from "./components/Component/标签导航css.vue";
 
 const state = reactive({ count: 0 });
 onMounted(() => {
