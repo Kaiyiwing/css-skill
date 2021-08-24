@@ -38,6 +38,7 @@
     <Component3 />
     <Component4 />
     <Component5 />
+    <Component6 />
   </div>
 </template>
 
@@ -53,6 +54,7 @@ import Component2 from "./components/Component/心形加载条.vue";
 import Component3 from "./components/Component/标签导航css.vue";
 import Component4 from "./components/Component/标签导航js.vue";
 import Component5 from "./components/Component/悬浮跟踪按钮.vue";
+import Component6 from "./components/Component/悬浮视差按钮.vue";
 
 const state = reactive({ count: 0 });
 onMounted(() => {
