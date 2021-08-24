@@ -36,6 +36,7 @@
     <Component1 />
     <Component2 />
     <Component3 />
+    <Component4 />
   </div>
 </template>
 
@@ -49,6 +50,7 @@ import Figure1 from "./components/Figure/使用clip-path描绘各种图像.vue";
 import Component1 from "./components/Component/条形加载条.vue";
 import Component2 from "./components/Component/心形加载条.vue";
 import Component3 from "./components/Component/标签导航css.vue";
+import Component4 from "./components/Component/标签导航js.vue";
 
 const state = reactive({ count: 0 });
 onMounted(() => {
