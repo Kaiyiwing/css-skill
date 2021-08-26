@@ -38,6 +38,11 @@
   &:checked {
     background-color: #5eb662;
     &::before {
+      /* 
+      用来模拟按钮背景的缩放渐变，
+      相当是一层在按钮背景上的布，
+      点击按钮时这块布快速缩小，
+      就实现了变换颜色 */
       transform: scale(0);
     }
     &::after {
