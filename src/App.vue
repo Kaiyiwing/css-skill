@@ -38,6 +38,7 @@
     <Figure1 />
     <Figure2 />
     <Figure3 />
+    <Figure4 />
   </div>
   <div class="content color">
     <Color1 />
@@ -72,6 +73,7 @@ import Behavior6 from "./components/Behavior/使用@empty监听清空状态.vue"
 import Figure1 from "./components/Figure/使用clip-path描绘各种图像.vue";
 import Figure2 from "./components/Figure/使用linear-gradient()描绘方格背景.vue";
 import Figure3 from "./components/Figure/使用mask雕刻镂空背景.vue";
+import Figure4 from "./components/Figure/使用box-shadow裁剪聚焦区域.vue";
 import Component1 from "./components/Component/条形加载条.vue";
 import Component2 from "./components/Component/心形加载条.vue";
 import Component3 from "./components/Component/标签导航css.vue";
