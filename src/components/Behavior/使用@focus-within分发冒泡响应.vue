@@ -153,6 +153,7 @@
     color: #fff;
     transition: all 300ms;
   }
+  /* 这里接受到的 focus-within 是冒泡自己的自元素 */
   .account,
   .password,
   .code {
