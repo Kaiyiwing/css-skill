@@ -37,6 +37,9 @@
   <div class="content figure">
     <Figure1 />
   </div>
+  <div class="content color">
+    <Color1 />
+  </div>
   <div class="content component">
     <Component1 />
     <Component2 />
@@ -69,6 +72,7 @@ import Component5 from "./components/Component/悬浮跟踪按钮.vue";
 import Component6 from "./components/Component/悬浮视差按钮.vue";
 import Component7 from "./components/Component/ios开关按钮.vue";
 import Component8 from "./components/Component/气泡对话框.vue";
+import Color1 from "./components/Color/使用linear-gradient()控制渐变背景.vue";
 
 const state = reactive({ count: 0 });
 onMounted(() => {
