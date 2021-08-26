@@ -6,7 +6,6 @@
 <style lang="scss" scoped>
 .gradient-text {
   background-image: linear-gradient(90deg, #f66, #f90);
-  -webkit-background-clip: text;
   background-clip: text;
   line-height: 60px;
   font-size: 60px;
