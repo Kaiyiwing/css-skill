@@ -32,6 +32,7 @@
     <Behavior3 />
     <Behavior4 />
     <Behavior5 />
+    <Behavior6 />
   </div>
   <div class="content figure">
     <Figure1 />
@@ -57,6 +58,7 @@ import Behavior2 from "./components/Behavior/使用+或~选择指定元素.vue";
 import Behavior3 from "./components/Behavior/使用@hover定制悬浮提示.vue";
 import Behavior4 from "./components/Behavior/使用@valid和@invalid校验表单内容.vue";
 import Behavior5 from "./components/Behavior/使用@focus-within分发冒泡响应.vue";
+import Behavior6 from "./components/Behavior/使用@empty监听清空状态.vue";
 import Figure1 from "./components/Figure/使用clip-path描绘各种图像.vue";
 import Component1 from "./components/Component/条形加载条.vue";
 import Component2 from "./components/Component/心形加载条.vue";
