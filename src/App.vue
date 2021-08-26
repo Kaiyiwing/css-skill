@@ -39,6 +39,7 @@
   </div>
   <div class="content color">
     <Color1 />
+    <Color2 />
   </div>
   <div class="content component">
     <Component1 />
@@ -73,6 +74,7 @@ import Component6 from "./components/Component/悬浮视差按钮.vue";
 import Component7 from "./components/Component/ios开关按钮.vue";
 import Component8 from "./components/Component/气泡对话框.vue";
 import Color1 from "./components/Color/使用linear-gradient()控制渐变背景.vue";
+import Color2 from "./components/Color/使用linear-gradient()控制渐变文本.vue";
 
 const state = reactive({ count: 0 });
 onMounted(() => {
