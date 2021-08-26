@@ -45,6 +45,7 @@
     <Component5 />
     <Component6 />
     <Component7 />
+    <Component8 />
   </div>
 </template>
 
@@ -67,6 +68,7 @@ import Component4 from "./components/Component/标签导航js.vue";
 import Component5 from "./components/Component/悬浮跟踪按钮.vue";
 import Component6 from "./components/Component/悬浮视差按钮.vue";
 import Component7 from "./components/Component/ios开关按钮.vue";
+import Component8 from "./components/Component/气泡对话框.vue";
 
 const state = reactive({ count: 0 });
 onMounted(() => {
