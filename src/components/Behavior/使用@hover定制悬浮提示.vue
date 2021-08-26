@@ -32,7 +32,12 @@ $color-list: #f66 #66f #f90 #09f #9c3 #3c9;
       position: absolute;
       left: 50%;
       bottom: 100%;
+      /*
+      opacity 为0时也会触发事件
+      所以需要关闭事件
+      */
       opacity: 0;
+      pointer-events: none;
       transform: translate3d(0, -30px, 0);
       transition: all 300ms;
     }
