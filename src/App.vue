@@ -43,6 +43,7 @@
     <Color1 />
     <Color2 />
     <Color3 />
+    <Color4 />
   </div>
   <div class="content component">
     <Component1 />
@@ -81,6 +82,7 @@ import Component8 from "./components/Component/气泡对话框.vue";
 import Color1 from "./components/Color/使用linear-gradient()控制渐变背景.vue";
 import Color2 from "./components/Color/使用linear-gradient()控制渐变文本.vue";
 import Color3 from "./components/Color/使用linear-gradient()控制闪烁文本.vue";
+import Color4 from "./components/Color/使用box-shadow描绘彩虹色带.vue";
 
 const state = reactive({ count: 0 });
 onMounted(() => {
