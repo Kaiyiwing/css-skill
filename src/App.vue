@@ -36,6 +36,7 @@
   </div>
   <div class="content figure">
     <Figure1 />
+    <Figure2 />
   </div>
   <div class="content color">
     <Color1 />
@@ -66,6 +67,7 @@ import Behavior4 from "./components/Behavior/使用@valid和@invalid校验表单
 import Behavior5 from "./components/Behavior/使用@focus-within分发冒泡响应.vue";
 import Behavior6 from "./components/Behavior/使用@empty监听清空状态.vue";
 import Figure1 from "./components/Figure/使用clip-path描绘各种图像.vue";
+import Figure2 from "./components/Figure/使用linear-gradient()描绘方格背景.vue";
 import Component1 from "./components/Component/条形加载条.vue";
 import Component2 from "./components/Component/心形加载条.vue";
 import Component3 from "./components/Component/标签导航css.vue";
