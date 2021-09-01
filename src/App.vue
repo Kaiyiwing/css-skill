@@ -25,6 +25,7 @@
     <Layout1 />
     <Layout2 />
     <Layout3 />
+    <Layout4 />
   </div>
   <div class="content behavior">
     <Behavior1 />
@@ -66,6 +67,7 @@ import { reactive, onMounted } from "vue";
 import Layout1 from "./components/Layout/使用flexbox排版各种布局.vue";
 import Layout2 from "./components/Layout/使用float排版环绕文本.vue";
 import Layout3 from "./components/Layout/使用text-overflow控制溢出文本.vue";
+import Layout4 from "./components/Layout/使用transform描绘像素边框.vue";
 import Behavior1 from "./components/Behavior/使用attr()抓取节点属性.vue";
 import Behavior2 from "./components/Behavior/使用+或~选择指定元素.vue";
 import Behavior3 from "./components/Behavior/使用@hover定制悬浮提示.vue";
