@@ -13,7 +13,7 @@
   若自身及其后代节点声明了position:absolute/fixed，
   则为其创建一个新容器，使得这些定位节点其定位基准相对这个新容器进行。
 
-  所以如果对全局开启灰度的话，生命到 html 标签上
+  所以如果对全局开启灰度的话，声明到 html 标签上
   <html style="filter:grayscale(1)">
   */
 .mourning-mode {
