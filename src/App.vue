@@ -48,6 +48,7 @@
     <Color2 />
     <Color3 />
     <Color4 />
+    <Color5 />
   </div>
   <div class="content component">
     <Component1 />
@@ -101,6 +102,7 @@ import Color1 from "./components/Color/使用linear-gradient()控制渐变背景
 import Color2 from "./components/Color/使用linear-gradient()控制渐变文本.vue";
 import Color3 from "./components/Color/使用linear-gradient()控制闪烁文本.vue";
 import Color4 from "./components/Color/使用box-shadow描绘彩虹色带.vue";
+import Color5 from "./components/Color/使用filter开启暗黑模式.vue";
 
 const state = reactive({ count: 0 });
 onMounted(() => {
