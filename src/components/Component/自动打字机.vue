@@ -9,6 +9,7 @@
 @mixin typing($count: 0, $duration: 0, $delay: 0) {
   overflow: hidden;
   border-right: 1px solid transparent;
+  /* ch 为一个字符的宽度 */
   width: #{$count + 1}ch;
   font-family: Consolas, Monaco, monospace;
   white-space: nowrap;
@@ -25,6 +26,7 @@
   @include typing(52, 5);
 }
 @keyframes caret {
+  /* 闪烁的右 border */
   50% {
     border-right-color: currentColor;
   }
