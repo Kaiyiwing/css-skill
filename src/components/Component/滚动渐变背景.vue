@@ -82,7 +82,6 @@ export default {
 
     const scroll = (e) => {
       const top = e.target.scrollTop;
-      console.log(top);
       if (top <= 250) {
         state.bgStyle.setProperty("--scrolly", 250 - top);
       } else {
