@@ -89,6 +89,7 @@
       width: 50%;
       height: 2px;
       background-color: #f66;
+      /* 类似刹车的 贝塞尔动画 */
       transition: all 300ms cubic-bezier(0.4, 0.4, 0.25, 1.35);
     }
   }
@@ -122,6 +123,7 @@
       &:focus:invalid {
         border-color: #f66;
       }
+      /* 通过 :placeholder-shown 来判断用户是否填充内容 */
       &:not(:placeholder-shown) + label {
         height: 30px;
         opacity: 1;
