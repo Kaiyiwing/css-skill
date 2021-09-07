@@ -60,6 +60,7 @@
     <Component8 />
     <Component9 />
     <Component10 />
+    <Component11 />
   </div>
 </template>
 
@@ -91,6 +92,7 @@ import Component7 from "./components/Component/ios开关按钮.vue";
 import Component8 from "./components/Component/气泡对话框.vue";
 import Component9 from "./components/Component/专栏头像.vue";
 import Component10 from "./components/Component/使用filter开启悼念模式.vue";
+import Component11 from "./components/Component/自动打字机.vue";
 import Color1 from "./components/Color/使用linear-gradient()控制渐变背景.vue";
 import Color2 from "./components/Color/使用linear-gradient()控制渐变文本.vue";
 import Color3 from "./components/Color/使用linear-gradient()控制闪烁文本.vue";
