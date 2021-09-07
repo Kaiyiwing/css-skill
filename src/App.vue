@@ -62,6 +62,7 @@
     <Component10 />
     <Component11 />
     <Component12 />
+    <Component13 />
   </div>
 </template>
 
@@ -95,6 +96,7 @@ import Component9 from "./components/Component/专栏头像.vue";
 import Component10 from "./components/Component/使用filter开启悼念模式.vue";
 import Component11 from "./components/Component/自动打字机.vue";
 import Component12 from "./components/Component/手风琴.vue";
+import Component13 from "./components/Component/折叠面板.vue";
 import Color1 from "./components/Color/使用linear-gradient()控制渐变背景.vue";
 import Color2 from "./components/Color/使用linear-gradient()控制渐变文本.vue";
 import Color3 from "./components/Color/使用linear-gradient()控制闪烁文本.vue";
