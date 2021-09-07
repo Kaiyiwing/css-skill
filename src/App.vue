@@ -66,6 +66,7 @@
     <Component13 />
     <Component14 />
     <Component15 />
+    <Component16 />
   </div>
 </template>
 
@@ -102,6 +103,7 @@ import Component12 from "./components/Component/手风琴.vue";
 import Component13 from "./components/Component/折叠面板.vue";
 import Component14 from "./components/Component/登录注册.vue";
 import Component15 from "./components/Component/放大镜.vue";
+import Component16 from "./components/Component/滚动渐变背景.vue";
 import Color1 from "./components/Color/使用linear-gradient()控制渐变背景.vue";
 import Color2 from "./components/Color/使用linear-gradient()控制渐变文本.vue";
 import Color3 from "./components/Color/使用linear-gradient()控制闪烁文本.vue";
